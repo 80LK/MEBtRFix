@@ -1,0 +1,7 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "korataki_24"
+		path = "gfx/fonts/korataki_24"
+		color = -1
+	}
+}
