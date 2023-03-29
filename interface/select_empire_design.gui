@@ -7,7 +7,7 @@ guiTypes = {
 
 	positionType = {
 		name = "back_button_offset_x_min_max"
-		position = { x = -6 y = 26 }
+		position = { x = 0 y = 33 }
 	}
 
 	positionType = {
@@ -147,82 +147,30 @@ guiTypes = {
 			actionShortcut = "accept"
 			
 			buttonFont = "korataki_24"
-			quadTextureSprite = "btr_empty_button"
+			quadTextureSprite = "btr_button_240"
 			buttonText = "SELECT"
-			size = {
-				height = 237
-				width = 35
-			}
-			if_resolution = {
-				min_width = 2560 # min_width or max_width
-				min_height = 1440 # min_height or max_height
-				position = { x = 390 y = 305 }
-				scale = 0.8
-			}
-
-			if_resolution = {
-				max_width = 1920 # min_width or max_width
-				max_height = 1080 # min_height or max_height
-				position = { x = 390 y = 305 }
-				scale = 0.8
-			
-			}
-
-			if_resolution = {
-				max_width = 1366 # min_width or max_width
-				max_height = 768 # min_height or max_height
-				position = { x = 390 y = 305 }
-				orientation = CENTER
-			}
+			position = { x = 390 y = 306 }
 		}
 
 		buttonType = {
 			name = "back"
 			size = {
-				height = 256
+				height = 240
 				width = 34
 			}
 			buttonFont = "korataki_24"
-			quadTextureSprite = "btr_empty_button"
+			quadTextureSprite = "btr_button_240"
 			# spriteType = "btr_empty_button"
 			buttonText = "BACK_TO_MENU"
 			shortCut = "ESCAPE"
+			
+			position = { x = 0 y = -68 }
+			orientation = LOWER_LEFT
+			actionShortCut = "cancel"
+			clicksound = back_click
 
 			# format = center
 			# vertical_alignment = center
-
-			# position = { x = 5 y = -68 }
-			# orientation = LOWER_LEFT
-			# actionShortCut = "cancel"
-			# clicksound = back_click
-
-			if_resolution = {
-				min_width = 2560 # min_width or max_width
-				min_height = 1440 # min_height or max_height
-				position = { x = -4 y = -68 }
-				orientation = LOWER_LEFT
-				actionShortCut = "cancel"
-				clicksound = back_click
-			}
-
-			if_resolution = {
-				max_width = 1920 # min_width or max_width
-				max_height = 1080 # min_height or max_height
-				position = { x = 5 y = -68 }
-				orientation = LOWER_LEFT
-				actionShortCut = "cancel"
-				clicksound = back_click
-			
-			}
-
-			if_resolution = {
-				max_width = 1366 # min_width or max_width
-				max_height = 768 # min_height or max_height
-				position = { x = -4 y = -68 }
-				orientation = LOWER_LEFT
-				actionShortCut = "cancel"
-				clicksound = back_click
-			}
 		}
 		
 		instantTextBoxType = {

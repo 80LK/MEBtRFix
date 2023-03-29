@@ -51,34 +51,13 @@ guiTypes = {
 		buttonType = {
 			name = "hide"
 			buttonFont = "korataki_24"
-			quadTextureSprite = "btr_empty_button"
+			quadTextureSprite = "btr_button_240"
 			buttonText = "CANCEL"
-			size = {
-				height = 205
-				width = 32
-			}
+			position = { x = 70 y = -38 }
 			shortCut = "ESCAPE"
 			orientation = LOWER_LEFT
 			actionShortCut = "cancel"
 			clicksound = back_click
-			if_resolution = {
-				min_width = 2560 # min_width or max_width
-				min_height = 1440 # min_height or max_height
-				position = { x = 70 y = -38 }
-				scale = 0.7
-			}
-			if_resolution = {
-				max_width = 1920 # min_width or max_width
-				max_height = 1080 # min_height or max_height
-				position = { x = 70 y = -38 }
-				scale = 0.7
-			}
-			if_resolution = {
-				max_width = 1366 # min_width or max_width
-				max_height = 768 # min_height or max_height
-				position = { x = 70 y = -38 }
-				scale = 0.7
-			}
 		}
 		
 		instantTextBoxType = {
@@ -97,21 +76,8 @@ guiTypes = {
 			spriteType = "GFX_gamesetup_delete"
 			orientation = LOWER_LEFT
 			pdx_tooltip = "DELETE_SAVEGAME_TOGGLE"
-			if_resolution = {
-				min_width = 2560 # min_width or max_width
-				min_height = 1440 # min_height or max_height
-				position = { x = 285 y = -41 }
-			}
-			if_resolution = {
-				max_width = 1920 # min_width or max_width
-				max_height = 1080 # min_height or max_height
-				position = { x = 285 y = -41 }
-			}
-			if_resolution = {
-				max_width = 1366 # min_width or max_width
-				max_height = 768 # min_height or max_height
-				position = { x = 285 y = -41 }
-			}
+			position = { x = 310 y = -41 }
+
 		}
 		
 		instantTextBoxType = {
@@ -332,33 +298,11 @@ guiTypes = {
 			buttonType = {
 				name = "load_selected"
 				buttonFont = "korataki_24"
-				quadTextureSprite = "btr_empty_button"
+				quadTextureSprite = "btr_button_240"
 				buttonText = "CONTINUE"
 				shortcut = "RETURN"
 				clicksound = confirm_click
-				size = {
-					height = 208
-					width = 32
-				}
-
-				if_resolution = {
-					min_width = 2560 # min_width or max_width
-					min_height = 1440 # min_height or max_height
-					position = { x = 370 y = 582 }
-					scale = 0.7
-				}
-				if_resolution = {
-					max_width = 1920 # min_width or max_width
-					max_height = 1080 # min_height or max_height
-					position = { x = 387 y = 605 }
-					scale = 0.7
-				}
-				if_resolution = {
-					max_width = 1366 # min_width or max_width
-					max_height = 768 # min_height or max_height
-					position = { x = 370 y = 582 }
-					scale = 0.7
-				}
+				position = { x = 360 y = 606 }
 			}
 
 			instantTextBoxType = {

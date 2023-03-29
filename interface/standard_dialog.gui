@@ -741,67 +741,67 @@ guiTypes = {
 
 		buttonType = {
 			name = "DeclineButton"
-			quadTextureSprite = "btr_empty_button"
+			quadTextureSprite = "btr_button_180"
 			buttonFont = "korataki_24"
 			buttonText = "CANCEL"
 			orientation = center
 			shortcut = "ESCAPE"
 			actionShortCut = "cancel"
-			size = {
-				height = 180
-				width = 34
-			}
+			# size = {
+			# 	height = 180
+			# 	width = 34
+			# }
 			if_resolution = {
 				min_width = 2560 # min_width or max_width
 				min_height = 1440 # min_height or max_height
 				position = { x = -195 y = 85 }
-				scale = 0.6
+				# scale = 0.6
 			}
 			if_resolution = {
 				max_width = 1920 # min_width or max_width
 				max_height = 1080 # min_height or max_height
 				position = { x = -195 y = 85 }
-				scale = 0.6
+				# scale = 0.6
 			}
 			if_resolution = {
 				max_width = 1366 # min_width or max_width
 				max_height = 768 # min_height or max_height
 				position = { x = -195 y = 85 }
-				scale = 0.6
+				# scale = 0.6
 			}
 		
 		}
 		
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "btr_empty_button"
+			quadTextureSprite = "btr_button_180"
 			orientation = center			
 			clicksound = "confirmation"
 			shortcut = "RETURN"
 			buttonFont = "korataki_24"
 			buttonText = "QUIT_TITLE"
 			actionShortcut = "accept"
-			size = {
-				height = 180
-				width = 34
-			}
+			# size = {
+			# 	height = 180
+			# 	width = 34
+			# }
 			if_resolution = {
 				min_width = 2560 # min_width or max_width
 				min_height = 1440 # min_height or max_height
 				position = { x = 15 y = 85 }
-				scale = 0.6
+				# scale = 0.6
 			}
 			if_resolution = {
 				max_width = 1920 # min_width or max_width
 				max_height = 1080 # min_height or max_height
 				position = { x = 15 y = 85 }
-				scale = 0.6
+				# scale = 0.6
 			}
 			if_resolution = {
 				max_width = 1366 # min_width or max_width
 				max_height = 768 # min_height or max_height
 				position = { x = 15 y = 85 }
-				scale = 0.8
+				# scale = 0.8
 			}
 
 		}

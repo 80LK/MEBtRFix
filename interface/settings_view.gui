@@ -2424,10 +2424,10 @@ guiTypes = {
 				name = "ApplyButton"
 				
 				buttonFont = "korataki_24"
-				quadTextureSprite = "btr_empty_button"
+				quadTextureSprite = "btr_button_240"
 				buttonText = "SETTINGS_APPLY"
 				size = {
-					height = 237
+					height = 240
 					width = 35
 				}
 
@@ -2438,19 +2438,19 @@ guiTypes = {
 					min_width = 2560 # min_width or max_width
 					min_height = 1440 # min_height or max_height
 					position = { x = 560  y = 572 }
-					scale = 0.8
+					# scale = 0.8
 				}
 				if_resolution = {
 					max_width = 1920 # min_width or max_width
 					max_height = 1080 # min_height or max_height
 					position = { x = 560  y = 572 }
-					scale = 0.8
+					# scale = 0.8
 				}
 				if_resolution = {
 					max_width = 1366 # min_width or max_width
 					max_height = 768 # min_height or max_height
 					position = { x = 560  y = 572 }
-					scale = 0.8
+					# scale = 0.8
 				}
 			}
 
@@ -2459,10 +2459,10 @@ guiTypes = {
 				name = "ResetButton"
 				
 				buttonFont = "korataki_24"
-				quadTextureSprite = "btr_empty_button"
+				quadTextureSprite = "btr_button_240"
 				buttonText = "SETTINGS_RESET"
 				size = {
-					height = 237
+					height = 240
 					width = 35
 				}
 
@@ -2476,19 +2476,19 @@ guiTypes = {
 					min_width = 2560 # min_width or max_width
 					min_height = 1440 # min_height or max_height
 					position = { x = -140 y = 572  }
-					scale = 0.8
+					# scale = 0.8
 				}
 				if_resolution = {
 					max_width = 1920 # min_width or max_width
 					max_height = 1080 # min_height or max_height
 					position = { x = -140 y = 572  }
-					scale = 0.8
+					# scale = 0.8
 				}
 				if_resolution = {
 					max_width = 1366 # min_width or max_width
 					max_height = 768 # min_height or max_height
 					position = { x = -140 y = 572  }
-					scale = 0.8
+					# scale = 0.8
 				}
 			}
 
@@ -2496,11 +2496,11 @@ guiTypes = {
 				id = "BackButton"
 				name = "BackButton"
 				buttonFont = "korataki_24"
-				quadTextureSprite = "btr_empty_button"
+				quadTextureSprite = "btr_button_240"
 				buttonText = "CANCEL"
 				size = {
-					height = 237
-					width = 35
+					height = 240
+					width = 34
 				}
 				shortcut = "ESCAPE"
 				clicksound = "back_click"
@@ -2511,19 +2511,19 @@ guiTypes = {
 					min_width = 2560 # min_width or max_width
 					min_height = 1440 # min_height or max_height
 					position = { x = -400  y = 572 }
-					scale = 0.8
+					# scale = 0.8
 				}
 				if_resolution = {
 					max_width = 1920 # min_width or max_width
 					max_height = 1080 # min_height or max_height
 					position = { x = -400  y = 572 }
-					scale = 0.8
+					# scale = 0.8
 				}
 				if_resolution = {
 					max_width = 1366 # min_width or max_width
 					max_height = 768 # min_height or max_height
 					position = { x = -400  y = 572 }
-					scale = 0.8
+					# scale = 0.8
 				}
 			}
 
