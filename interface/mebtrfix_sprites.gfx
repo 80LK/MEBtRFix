@@ -42,6 +42,33 @@ spriteTypes = {
 			y = 1
 		}
 	}
+	spriteType = {
+		name = "renegon_button"
+		texturefile = "gfx/interface/buttons/renegon_button.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/renegon_button.dds"
+			animationtexturefile = "gfx/interface/buttons/button_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 40
+			animationdelay = 0
+			animationblendmode = "overlay"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+			animationframes = {
+				3
+			}
+		}
+	}
 }
 
 spriteTypes = {

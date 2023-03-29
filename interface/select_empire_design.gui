@@ -101,42 +101,16 @@ guiTypes = {
 		#######################
 		# edit/select/delete/back
 		#######################
-
 		buttonType = {
 			name = "edit"
-			if_resolution = {
-				min_width = 2560 # min_width or max_width
-				min_height = 1440 # min_height or max_height
-				font = "malgun_goth_24"
-				spriteType = "empire_edit_button"
-				position = { x = -407 y = 297 }
-				orientation = CENTER
-				clicksound = confirm_click
-			}
-
-			if_resolution = {
-				max_width = 1920 # min_width or max_width
-				max_height = 1080 # min_height or max_height
-				font = "malgun_goth_24"
-				spriteType = "empire_edit_button"
-				position = { x = -407 y = 295 }
-				orientation = CENTER
-				clicksound = confirm_click
-			
-			}
-
-			if_resolution = {
-				max_width = 1366 # min_width or max_width
-				max_height = 768 # min_height or max_height
-				font = "malgun_goth_24"
-				spriteType = "empire_edit_button"
-				position = { x = -407 y = 297 }
-				orientation = CENTER
-				clicksound = confirm_click
-			}
-
+			font = "korataki_24"
+			buttontext = "EDIT"
+			spriteType = "renegon_button"
+			position = { x = -397 y = 306 }
+			orientation = CENTER
+			clicksound = confirm_click
 		}
-
+		
 		buttonType = {
 			name = "delete"
 			font = "cg_16b"
