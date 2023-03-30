@@ -62,7 +62,7 @@ part = {
 	location = 0
 	localization = "START_SCREEN_omega"
 	trigger = {
-		has_origin = origin_omega
+		has_origin = omega_origin
 	}
 }
 
