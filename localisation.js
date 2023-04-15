@@ -17,6 +17,7 @@ moveLocales(root_language_path, root_language, langs);
 
 function moveLocales(r_path, lang, langs) {
 	fs.readdirSync(r_path).forEach(file => {
+		if (file == "l_english.yml") return;
 		const path = r_path + file;
 		if (fs.statSync(path).isDirectory()) {
 			console.log(`"${file}" is Dir`);
