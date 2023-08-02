@@ -1,0 +1,41 @@
+{ //Copy this file and rename to locale_copy.json
+	// REQUIRED
+	"path": "mod/localisation",
+	// REQUIRED
+	"in_lang": "english",
+	// default all languages
+	"out_langs": [
+		"braz_por",
+		"french",
+		"german",
+		"japanese",
+		"korean",
+		"polish",
+		"russian",
+		"simp_chinese",
+		"spanish"
+	],
+	// default empty
+	"ignores": [
+		"l_english.yml"
+	],
+	"additivePaths": [
+		{
+			"path": "path/to/localization",
+			// in_lang if not defined used from root
+			"in_lang": "english",
+			// out_langs if not defined used from root
+			"out_langs": [
+				"langs"
+			],
+			// ignores if not defined used from root
+			"ignores": [
+				"path"
+			]
+		},
+		/*
+		all params copy from root
+		*/
+		"path/to/localization"
+	]
+}
