@@ -4,5 +4,5 @@ tags={
 	"Translation"
 }
 name="Mass Effect: Beyond the Relays Fix for Translation"
-supported_version="3.7.*"
+supported_version="3.8.*"
 remote_file_id="2954292659"
